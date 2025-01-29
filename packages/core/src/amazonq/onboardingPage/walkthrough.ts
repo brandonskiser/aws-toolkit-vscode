@@ -54,7 +54,8 @@ export const walkthroughInlineSuggestionsExample = Commands.declare(
 # Tip: press tab to accept the suggestion
 
 fake_users = [
-    { "name": "User 1", "id": "user1", "city": "San Francisco", "state": "CA" },`
+    { "name": "User 1", "id": "user1", "city": "San Francisco", "state": "CA" },
+]`
 
         const uri = vscode.Uri.parse(`untitled:${fileName}`)
         const document = await vscode.workspace.openTextDocument(uri)
